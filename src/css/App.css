@@ -13,25 +13,45 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* z-index: 2; */
 }
 
 /* ========== NAVIGATION ========== */
 .app-nav {
   display: flex;
+  flex-direction: column;
   background-color: var(--primary-dark);
   color: var(--primary-light);
-  /* z-index: 3; */
+  position: sticky;
+  top: 0;
+  height: var(--nav-height);
 }
 
-.app-nav>* {
+.nav-mobile-button{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: var(--primary-dark);
+  border: 0 none;
+  /* height: var(--nav-height); */
+}
+
+.nav-wrapper{
   width: 100%;
-  padding: 1em;
+  background-color: var(--primary-dark);
+  transition-timing-function: ease;
+  transition-duration: .35s;
+  transition-property: height,visibility;
 }
 
-.app-nav>*:hover {
-  background-color: var(--primary-light);
-  color: var(--primary-dark);
+.nav-wrapper ul{
+  margin: 1em;
+  padding: 0;
+  animation: roll-out 0.2s both;
+}
+
+.nav-wrapper li{
+  list-style: none;
+  padding: 0.2em;
 }
 
 .app-comment-float {
@@ -64,3 +84,5 @@
 }
 
 /* ========== MEDIA ========== */
+
+/* ========== FRAMES ========== */
