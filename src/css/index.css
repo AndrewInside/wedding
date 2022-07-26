@@ -9,7 +9,7 @@ body {
 
 a:any-link{
   text-decoration: none;
-  color: var(--font-color);
+  color: var(--link-color);
 }
 
 code {
@@ -23,5 +23,6 @@ code {
   --secondary-dark: #B3A794;
   --secondary-light: #FFF8ED;
   --font-color: #222222;
+  --link-color: #4998ec;
   --nav-height: 2rem;
 }

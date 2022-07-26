@@ -10,7 +10,7 @@ export const Navigation = () => {
                 <button className='nav-mobile-button' onClick={() => setOpenMenu(!openMenu)}>
                     <Menu size='2em' color='black' />
                 </button>
-                <div className='nav-wrapper' style={{height: openMenu ? "200px" : "0" }}>
+                <div className='nav-wrapper' style={{height: openMenu ? "200px" : "0", display: openMenu ? "block" : "none" }}>
                     <ul>
                         <li>Some</li>
                         <li>Nav</li>
