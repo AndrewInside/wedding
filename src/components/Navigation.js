@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MessageSquare, Menu } from 'react-feather';
+import { Menu } from 'react-feather';
 import MenuLink from './MenuLink';
 
 export const Navigation = () => {
@@ -20,13 +20,9 @@ export const Navigation = () => {
                         <li><MenuLink href='#nav-transport' onClick={setOpenMenu}>Doprava a ubytko</MenuLink></li>
                         <li><MenuLink href='#nav-jukebox' onClick={setOpenMenu}>Zapoj se do Jukeboxu!</MenuLink></li>
                         <li><MenuLink href='#nav-gifts' onClick={setOpenMenu}>Dary</MenuLink></li>
-                        <li><MenuLink href='#nav-comments' onClick={setOpenMenu}>Vzkazy</MenuLink></li>
                     </ul>
                 </div>
             </nav>
-            <a className='app-comment-float' href="#app-comment-section">
-                <MessageSquare size='2.5rem' />
-            </a>
         </>
     )
 }

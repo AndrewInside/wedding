@@ -11,12 +11,12 @@ export const Header = () => {
             { image: header, speed: -50, expanded: false, opacity: [1.6, 0.4] },
             {
               children: (
-                <div className="app-header-wrapper" style={{ height: "100vh", display: "flex", flexDirection: "column", justifyContent: "center" }}>
-                  <h1>Jana &amp; Ondra</h1>
-                  <h2>Bereme se. Buď u toho.</h2>
+                <div className="app-header-wrapper">
+                  <h2>Bereme se.</h2>
+                  <h2>Buď u&nbsp;toho.</h2>
                 </div>
               ),
-              speed: -30,
+              speed: 10,
               expanded: false
             }]} />
       </header>

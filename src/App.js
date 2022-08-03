@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import { Navigation } from './components/Navigation';
 import Link from './components/Link';
 import ContentBox from './components/ContentBox';
+import FancyTitle from './components/FancyTitle';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Navigation />
       <section className='app-content-section'>
         <ContentBox name="nav-where" >
-          <h2>8. 10. v <Link href="https://www.boutiquehotelcorso.cz/" title="Hotel">Hotelu Corso</Link></h2>
+          <FancyTitle>8. 10. v <Link href="https://www.boutiquehotelcorso.cz/" title="Hotel">Hotelu Corso</Link></FancyTitle>
           <p>Obřad i oslavu si užijem přímo tady <Link href="https://goo.gl/maps/YyZu5zetd262" title="Mapa">nám. Krále Jiřího z Poděbrad 2</Link>. S tvým příjezdem počítáme někdy od 13:00.</p>
           <h3>14:00 obřad venku</h3>
           <p>
@@ -30,20 +31,20 @@ function App() {
           <p>Mimochodem, na místě je piano. My na něj neumíme. Ty možná jo?</p>
         </ContentBox>
         <ContentBox name="nav-kids">
-          <h2>Děti</h2>
+          <FancyTitle>Děti</FancyTitle>
           <p>I píďata si najdou svý. Plánujeme koutek pro nejmenší, a když udeří nuda, zachrání to zdejší <Link href="https://www.nasemestecko.cz/" title="Dětský koutek">Městečko</Link> – herní prostor s kavárnou, kde po předchozí domluvě umí i profi hlídání (<Link href="https://www.nasemestecko.cz/hlidani-deti-revnice/" title="Kontakt">napiš jim</Link>).</p>
         </ContentBox>
         <ContentBox name="nav-traditions">
-          <h2>Zvyky</h2>
+          <FancyTitle>Zvyky</FancyTitle>
           <p>Tradic plánujeme poskrovnu. Spíš si s tebou užijem některou z volných aktivit, co připravujem. Máš taky nápad? Ozvi se. A jestli to má být překvapení, napiš Alence a Terezce. Ví, co a jak.</p>
           <p>Joa… unášení nevěsty nebude. Jana je z Ondry unešená dost.</p>
         </ContentBox>
         <ContentBox name="nav-dress-code">
-          <h2>Dress Code</h2>
+          <FancyTitle>Dress Code</FancyTitle>
           <p>Něco pohodlného, v čem se budeš cítit krásně a svátečně. Nic víc neřeš a deštník nebal. Půjčíme ti kdyžtak průhledný, ať hezky vidíš na to drama u oltáře. =)</p>
         </ContentBox>
         <ContentBox name="nav-transport">
-          <h2>Doprava a ubytko</h2>
+          <FancyTitle>Doprava a ubytko</FancyTitle>
           {/* Mapka */}
           <ul>
             <li>O víkendu se tu dobře parkuje, zóny tu nejsou.</li>
@@ -55,22 +56,22 @@ function App() {
           </p>
         </ContentBox>
         <ContentBox name="nav-jukebox">
-          <h2>Zapoj se do Jukeboxu!</h2>
+          <FancyTitle>Zapoj se do Jukeboxu!</FancyTitle>
           <p>Postavme spolu mix, kterej se všem jak mentolovej delight rozpustí na rautem přesyceným jazyku. Znáš songy, co rozezní srdce a rozhejbou kolena? <Link href="https://open.spotify.com/playlist/3J6OwjYfuYeDeSAu24D6eZ?si=cc1d544763dc4064&pt=bd03725ea8bf16960d0b4e76086f297e" title="Spotify">Přihoď je do našeho After Eight playlistu na Spotify</Link>. Namixujem z nich pak večerní zábavu po osmé.</p>
         </ContentBox>
         <ContentBox name="nav-gifts">
-          <h2>Dary</h2>
+          <FancyTitle>Dary</FancyTitle>
           <p>Největší dárek je pro nás, že dorazíš a užiješ si to s náma. Připravit to stojí spoustu námahy, a tak je pro nás živá párty ta pravá odměna. Pokud ti bude připadat jó dobrá, můžeš nám na místě přispět do prasátka (nebo přes QR kód).</p>
         </ContentBox>
       </section>
-      <section className='app-comment-section' id='app-comment-section'>
+      {/* <section className='app-comment-section' id='app-comment-section'>
         <ContentBox name='nav-comments'>
         <h2>Vzkazy</h2>
         <p>Tak co ty na to? Máš otázky? Napiš nám…</p>
         </ContentBox>
-      </section>
+      </section> */}
       <footer className='app-footer'>
-        Foot
+        
       </footer>
     </div>
   );
