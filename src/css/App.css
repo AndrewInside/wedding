@@ -131,6 +131,7 @@ a.app-comment-float {
 .fancy {
   line-height: 0.5;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .fancy h2 {
