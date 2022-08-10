@@ -83,7 +83,7 @@ a:hover {
 a.nav-link {
   width: 100%;
   display: inline-block;
-  color: black;
+  color: var(--primary-light);
   padding: .2em .2em .2em;
 }
 
@@ -113,7 +113,7 @@ a.app-comment-float {
 
 /* ========== CONTENT ========== */
 
-.app-content-section{
+.app-content-section {
   margin-top: 2.5rem;
 }
 
@@ -129,18 +129,31 @@ a.app-comment-float {
 }
 
 .fancy {
-  line-height: 0.5;
+  /* line-height: 0.5; */
   text-align: center;
   overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fancy span {
+  height: 5px;
+  border-bottom: 1px solid var(--primary-dark);
+  border-top: 1px solid var(--primary-dark);
+  flex-grow: 4;
+  min-width: 2em;
 }
 
 .fancy h2 {
   display: inline-block;
   position: relative;
   z-index: 5;
+  flex-grow: 1;
+  padding: 0 0.3em;
 }
 
-.fancy h2::before,
+/* .fancy h2::before,
 .fancy h2::after {
   content: "";
   position: absolute;
@@ -159,7 +172,7 @@ a.app-comment-float {
 .fancy h2::after {
   left: 100%;
   margin-left: 15px;
-}
+} */
 
 /* ========== FOOTER ========== */
 
