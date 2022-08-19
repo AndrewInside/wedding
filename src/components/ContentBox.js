@@ -5,7 +5,7 @@ const ContentBox = (props) => {
     const { name, children } = props;
     return (
         <>
-            <a className='anchor' id={name}></a>
+            <a aria-hidden="true" href={`#${name}`} className='anchor' id={name}>{name}</a>
             <div>
                 {children}
             </div>

@@ -8,7 +8,7 @@ export const Header = () => {
       <header className="app-header">
         <ParallaxBanner style={{ height: "85vh" }}
           layers={[
-            { image: header, speed: -50, expanded: false, opacity: [1.6, 0.4], scale: [1.1, 1.2]},
+            { image: header, speed: -50, expanded: false, opacity: [1.6, 0.4], scale: [1.2, 1.2]},
             {
               children: (
                 <div className="app-header-wrapper">
