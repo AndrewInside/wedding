@@ -6,9 +6,9 @@ export const Header = () => {
   return (
     <ParallaxProvider>
       <header className="app-header">
-        <ParallaxBanner style={{ height: "100vh" }}
+        <ParallaxBanner style={{ height: "85vh" }}
           layers={[
-            { image: header, speed: -50, expanded: false, opacity: [1.6, 0.4] },
+            { image: header, speed: -50, expanded: false, opacity: [1.6, 0.4], scale: [1.1, 1.2]},
             {
               children: (
                 <div className="app-header-wrapper">
@@ -18,7 +18,8 @@ export const Header = () => {
               ),
               speed: 10,
               expanded: false
-            }]} />
+            },
+          ]} />
       </header>
     </ParallaxProvider>
   )

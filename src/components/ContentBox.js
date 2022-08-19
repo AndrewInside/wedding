@@ -4,9 +4,12 @@ import PropTypes from 'prop-types';
 const ContentBox = (props) => {
     const { name, children } = props;
     return (
-        <div id={name}>
-            {children}
-        </div>
+        <>
+            <a className='anchor' id={name}></a>
+            <div>
+                {children}
+            </div>
+        </>
     )
 };
 

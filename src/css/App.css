@@ -21,12 +21,12 @@ a:hover {
 .app-header {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .app-header-wrapper {
-  height: 90vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -87,30 +87,6 @@ a.nav-link {
   padding: .2em .2em .2em;
 }
 
-.app-comment-float {
-  background-color: var(--primary-dark);
-  color: var(--primary-light);
-  position: fixed;
-  width: 15vmin;
-  height: 15vmin;
-  bottom: 5vmin;
-  right: 5vmin;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 2px 2px 3px #999;
-}
-
-.app-comment-float:hover {
-  background-color: var(--primary-light);
-  color: var(--primary-dark);
-}
-
-a.app-comment-float {
-  color: var(--font-color);
-}
-
 /* ========== CONTENT ========== */
 
 .app-content-section {
@@ -118,18 +94,22 @@ a.app-comment-float {
 }
 
 .app-content-section,
-.app-comment-section,
 .app-footer {
   padding: 0 2em;
 }
 
-.app-content-section,
-.app-comment-section {
+.app-content-section{
   background-color: var(--primary-light);
 }
 
+.anchor{
+  display: block;
+  position: relative;
+  visibility: hidden;
+  top: calc(-1 * var(--nav-height));
+}
+
 .fancy {
-  /* line-height: 0.5; */
   text-align: center;
   overflow-x: hidden;
   display: flex;
@@ -152,27 +132,6 @@ a.app-comment-float {
   flex-grow: 1;
   padding: 0 0.3em;
 }
-
-/* .fancy h2::before,
-.fancy h2::after {
-  content: "";
-  position: absolute;
-  height: 5px;
-  border-bottom: 1px solid var(--primary-dark);
-  border-top: 1px solid var(--primary-dark);
-  top: 0;
-  width: 600px;
-}
-
-.fancy h2::before {
-  right: 100%;
-  margin-right: 15px;
-}
-
-.fancy h2::after {
-  left: 100%;
-  margin-left: 15px;
-} */
 
 /* ========== FOOTER ========== */
 
