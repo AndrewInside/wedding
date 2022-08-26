@@ -26,7 +26,7 @@ a:hover {
 }
 
 .app-header-wrapper {
-  height: 80vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -40,6 +40,21 @@ a:hover {
   letter-spacing: 10px;
   padding: 0;
   margin: 0;
+}
+
+.down-link span {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  transform: rotate(-45deg);
+  animation: scroll-down 3s infinite;
+  box-sizing: border-box;
 }
 
 /* ========== NAVIGATION ========== */
@@ -98,11 +113,11 @@ a.nav-link {
   padding: 0 2em;
 }
 
-.app-content-section{
+.app-content-section {
   background-color: var(--primary-light);
 }
 
-.anchor{
+.anchor {
   display: block;
   position: relative;
   visibility: hidden;
@@ -143,6 +158,32 @@ a.nav-link {
 
 /* ========== MEDIA ========== */
 
+@media only screen and (max-width: 366px) {
+  .app-header-wrapper h2 {
+    font-size: 35px !important;
+    letter-spacing: 8px !important;
+  }
+}
 
+@media only screen and (max-width: 300px) {
+  .app-header-wrapper h2 {
+    font-size: 30px !important;
+    letter-spacing: 5px !important;
+  }
+}
 
 /* ========== FRAMES ========== */
+
+@keyframes scroll-down {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+
+  30% {
+    transform: rotate(-45deg) translate(-15px, 15px);
+  }
+
+  50% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+}

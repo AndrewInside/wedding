@@ -6,9 +6,18 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
-a:any-link{
+p,
+li,
+ol,
+ul {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+a:any-link {
   text-decoration: none;
   color: var(--link-color);
 }

@@ -5,8 +5,13 @@ import { Navigation } from './components/Navigation';
 import Link from './components/Link';
 import ContentBox from './components/ContentBox';
 import FancyTitle from './components/FancyTitle';
+import SmoothScroll from 'smooth-scroll';
 
 function App() {
+  new SmoothScroll('a[href*="#"]', {
+    speed: 300
+  });
+
   return (
     <div className="app">
       <Header />
