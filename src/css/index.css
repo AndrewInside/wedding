@@ -17,6 +17,17 @@ ul {
   line-height: 28px;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  text-align: left;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 a:any-link {
   text-decoration: none;
   color: var(--link-color);
