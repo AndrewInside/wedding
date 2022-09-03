@@ -1,14 +1,14 @@
 
-import './css/App.css';
-import { Header } from './components/Header';
-import { Navigation } from './components/Navigation';
-import Link from './components/Link';
-import ContentBox from './components/ContentBox';
-import FancyTitle from './components/FancyTitle';
-import SmoothScroll from 'smooth-scroll';
+import "./css/App.css";
+import { Header } from "./components/Header";
+import { Navigation } from "./components/Navigation";
+import Link from "./components/Link";
+import ContentBox from "./components/ContentBox";
+import FancyTitle from "./components/FancyTitle";
+import SmoothScroll from "smooth-scroll";
 
 function App() {
-  new SmoothScroll('a[href*="#"]', {
+  new SmoothScroll("a[href*='#']", {
     speed: 300
   });
 
@@ -16,67 +16,72 @@ function App() {
     <div className="app">
       <Header />
       <Navigation />
-      <section className='app-content-section'>
-        <ContentBox name="nav-where" >
-          <FancyTitle>8. 10. v <Link href="https://www.boutiquehotelcorso.cz/" title="Hotel">Hotelu Corso</Link></FancyTitle>
-          <p>Obřad i oslavu si užijem přímo tady <Link href="https://goo.gl/maps/YyZu5zetd262" title="Mapa">nám. Krále Jiřího z Poděbrad 2</Link>. S tvým příjezdem počítáme někdy od 13:00.</p>
-          <h3>14:00 obřad venku</h3>
-          <p>
-            Začátkem října bývá kolem 13/14 °C. Ale neboj. Do tepla hotelu to budeš mít doslova dva kroky.
-          </p>
-          <ul>
-            <li>Rýže se musí uklízet a na bublifuk tam není prostor. Ťuknem si radši bublinama v přípitku.</li>
-            <li>Po obřadu všechny poprosíme o hromadné foto. Snad z nás nebudou akvabely. =)</li>
-          </ul>
-          <p>
-            Mobil prosím při obřadu <strong>schovej</strong>. Opravdu. Viděli jsme to mockrát – zavazí to ostatním, záznam stojí za starou belu a přicházíš u toho o zážitek. Radši si nás odnes v srdci než na kartě.
-          </p>
-          <h3>… a pak párty uvnitř</h3>
-          <p>Členité prostory. Volná zábava. Bar a bohatý raut. Bez tabule, bez zasedacího pořádku.</p>
-          <p>Mimochodem, na místě je piano. My na něj neumíme. Ty možná jo?</p>
-        </ContentBox>
-        <ContentBox name="nav-kids">
-          <FancyTitle>Děti</FancyTitle>
-          <p>I píďata si najdou svý. Plánujeme koutek pro nejmenší, a když udeří nuda, zachrání to zdejší <Link href="https://www.nasemestecko.cz/" title="Dětský koutek">Městečko</Link> – herní prostor s kavárnou, kde po předchozí domluvě umí i profi hlídání (<Link href="https://www.nasemestecko.cz/hlidani-deti-revnice/" title="Kontakt">napiš jim</Link>).</p>
-        </ContentBox>
-        <ContentBox name="nav-traditions">
-          <FancyTitle>Zvyky</FancyTitle>
-          <p>Tradic plánujeme poskrovnu. Spíš si s tebou užijem některou z volných aktivit, co připravujem. Máš taky nápad? Ozvi se. A jestli to má být překvapení, napiš Alence a Terezce. Ví, co a jak.</p>
-          <p>Joa… unášení nevěsty nebude. Jana je z Ondry unešená dost.</p>
-        </ContentBox>
-        <ContentBox name="nav-dress-code">
-          <FancyTitle>Dress Code</FancyTitle>
-          <p>Něco pohodlného, v čem se budeš cítit krásně a svátečně. Nic víc neřeš a deštník nebal. Půjčíme ti kdyžtak průhledný, ať hezky vidíš na to drama u oltáře. =)</p>
-        </ContentBox>
-        <ContentBox name="nav-transport">
-          <FancyTitle>Doprava a ubytko</FancyTitle>
-          {/* Mapka */}
-          <ul>
-            <li>O víkendu se tu dobře parkuje, zóny tu nejsou.</li>
-            <li>Vlak do Řevnic jede z Hlaváku. Doporučujeme ten v 12:21.</li>
-            <li>Poslední vlak do Prahy jede v 23:34. Taxi je možnost. Nebo si bookni <Link href="https://www.hotelgrandrevnice.cz/ubytovani/" title="Ubytování">ubytko v Grandu</Link>.</li>
-          </ul>
-          <p>
-            Na spaní v Corso a pivovaru jsme se domlouvili s vytipovanými svatebčany – Corso pokojů je totiž malinko a pivovar leda pro Snorlaxe.
-          </p>
-        </ContentBox>
-        <ContentBox name="nav-jukebox">
-          <FancyTitle>Zapoj se do Jukeboxu!</FancyTitle>
-          <p>Postavme spolu mix, kterej se všem jak mentolovej delight rozpustí na rautem přesyceným jazyku. Znáš songy, co rozezní srdce a rozhejbou kolena? <Link href="https://open.spotify.com/playlist/3J6OwjYfuYeDeSAu24D6eZ?si=cc1d544763dc4064&pt=bd03725ea8bf16960d0b4e76086f297e" title="Spotify">Přihoď je do našeho After Eight playlistu na Spotify</Link>. Namixujem z nich pak večerní zábavu po osmé.</p>
-        </ContentBox>
-        <ContentBox name="nav-gifts">
-          <FancyTitle>Dary</FancyTitle>
-          <p>Největší dárek je pro nás, že dorazíš a užiješ si to s náma. Připravit to stojí spoustu námahy, a tak je pro nás živá párty ta pravá odměna. Pokud ti bude připadat jó dobrá, můžeš nám na místě přispět do prasátka (nebo přes QR kód).</p>
-        </ContentBox>
-      </section>
-      {/* <section className='app-comment-section' id='app-comment-section'>
-        <ContentBox name='nav-comments'>
-        <h2>Vzkazy</h2>
-        <p>Tak co ty na to? Máš otázky? Napiš nám…</p>
-        </ContentBox>
-      </section> */}
-      <footer className='app-footer'>
-        
+      <ContentBox name="nav-where" >
+        <h1>8.&nbsp;10.&nbsp;2022<br /><Link href="https://www.boutiquehotelcorso.cz/" title="Hotel">Hotel Corso v Řevnicích</Link></h1>
+        <FancyTitle>Program</FancyTitle>
+        <h3 className="header-left">13:00 Příjezd hostů</h3>
+        <ul>
+          <li>Parkuje se na pohodu a bez zón, <Link href="" title="">mrkni na mapku</Link>.</li>
+          <li>Vlak z Hlaváku jede v 12:21. S lítačkou za 22, bez ní za 53&nbsp;Kč.</li>
+        </ul>
+        <h3 className="header-right">14:00 Obřad před hotelem</h3>
+        <ul>
+          <li>V říjnu tu bývá 14 °C. Do tepla hotelu to jsou naštěstí dva kroky.</li>
+          <li><strong>Dress code?</strong> Něco pohodlného, v čem se cítíš krásně a svátečně. Deštníky máme, půjčíme ti bílý. ;)</li>
+          <li><strong>Při obřadu prosím nefoť.</strong> Radši si nás odnes v srdci než na kartě.</li>
+        </ul>
+        <h3 className="header-left">A pak...</h3>
+        <ul>
+          <li>Slzičky, přípitek i hromadné foto.</li>
+          <li><strong>Párty!</strong> Členité prostory. Volná zábava. Bar a boahtý raut.</li>
+          <li><strong>Bez tradic.</strong> Nevěsta je z ženicha unešená už dávno a centrem pozornosti nejsou rádi ani jeden.</li>
+        </ul>
+        {/* img1 Návrh na servírování */}
+        {/* img2 Přidat lidi a zamíchat */}
+      </ContentBox>
+      <ContentBox name="nav-jukebox">
+        <FancyTitle>Zapoj se</FancyTitle>
+        <h3 className="header-right">Znáš songy, co rozezní srdce a rozhejbou kolena?</h3>
+        <ul>
+          <li><Link href="https://open.spotify.com/playlist/3J6OwjYfuYeDeSAu24D6eZ?si=cc1d544763dc4064&pt=bd03725ea8bf16960d0b4e76086f297e" title="Spotify">Přihoď je do našeho After Eight jukeboxu na Spotify.</Link></li>
+        </ul>
+        {/* img3 Postavme spolu mix, kterej se všem jak mentolovej delight rozpustí na rautem přesyceným jazyku.*/}
+        <h3 className="header-left">Máš nápad na aktivitu nebo překvápko?</h3>
+        <ul>
+          <li>Napiš <Link href="" title="Svědkyně">Alence</Link> nebo <Link href="" title="Sestra">Terezce</Link>. Ví nejlíp, co a jak.</li>
+          <li>Mimochodem, na místě je piano. My na něj neumíme. &#129335; Ty jo?</li>
+        </ul>
+      </ContentBox>
+      <ContentBox name="nav-room">
+        <FancyTitle>Ubytko</FancyTitle>
+        <h3 className="header-right">Záleží, jestli...</h3>
+        <ul>
+          <li><strong>Spíš v Corsu:</strong> recepce tě ubytuje.</li>
+          <li><strong>Spíš v Pivovaru:</strong> klíč bude v Corsu.</li>
+          <li>Spát chceš, ale <strong>nemáš kde:</strong> využij prosím <Link href="https://www.hotelgrandrevnice.cz/" title="Hotel Grand">hotel Grand</Link> a napiš nám, jestli chceš snídat v Corsu.</li>
+          <li><strong>Nevíš, kde spíš:</strong> napiš <Link href="" title="Nevěsta">Janě</Link>.</li>
+          <li><strong>Spát nebudeš:</strong> Poslední vlak jede v 23:34. Cena za taxi dává smysl od 3 lidí. Můžeme ti poslat 150&nbsp;Kč slevu na první jízdu s Liftago.</li>
+        </ul>
+      </ContentBox>
+      <ContentBox name="nav-sunday">
+        <FancyTitle>Neděle</FancyTitle>
+        <h3 className="header-left">Cyklistický a turistický ráj</h3>
+        <p>Když už jsi tu... třeba tvá alkoholem zmožená hlava v neděli ocení trochu brdského kyslíku. Dá-li počásko, nabízí se:</p>
+        <ul>
+          <li><Link href="https://mapy.cz/s/logehakoge" title="Výlet">Fabiánova naučná stezka</Link> vhodná i pro kočárky.</li>
+        </ul>
+        {/* img4 Moc se nezadejchat */}
+        <ul>
+          <li><Link href="https://mapy.cz/s/radabojudo" title="Výlet">Procházka s výhledem</Link>, co končí na vláčku z Dobřichovic.</li>
+        </ul>
+        {/* img5 Pro dobrej pocit */}
+        <ul>
+          <li><Link href="https://mapy.cz/s/nakolalume" title="Výlet">Výšlap přes vodopádky a rozhlednu</Link> až k trati do Všenor.</li>
+        </ul>
+        {/* img6 Jako na obláčku */}
+      </ContentBox>
+      <footer className="app-footer wide">
+        <p>Největší dárek pro nás je, že dorazíš a užiješ si to s náma. Tak dary neřeš. Radši přines vtipný přáníčko, nebo hoď kilčo do prasátka na místě. &#129293;</p>
       </footer>
     </div>
   );

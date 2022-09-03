@@ -4,23 +4,64 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   font-weight: 400;
+  color: var(--dark-font-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
+}
+
+ul {
+  list-style-image: url(../img/hex.svg);
+}
+
+h3 {
+  position: relative;
+  z-index: 1;
+}
+
+h3.header-left::before {
+  content: '';
+  width: calc(50% + var(--gutter));
+  height: 8px;
+  background-color: var(--secondary-light);
+  display: inline-block;
+  z-index: -1;
+  position: absolute;
+  top: var(--l-font-size);
+  left: calc(var(--gutter) * -1);
+}
+
+h3.header-right::after {
+  content: '';
+  width: calc(50% + var(--gutter));
+  height: 8px;
+  background-color: var(--secondary-light);
+  display: inline-block;
+  z-index: -1;
+  position: absolute;
+  top: var(--l-font-size);
+  right: calc(var(--gutter) * -1);
 }
 
 p,
 li,
 ol,
 ul {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: var(--m-font-size);
+  line-height: var(--m-line-height);
 }
 
-h1,
+h1 {
+  font-size: var(--xl-font-size);
+  line-height: var(--xl-line-height);
+  text-align: center;
+}
+
 h2,
 h3,
 h4 {
+  font-size: var(--l-font-size);
+  line-height: var(--l-line-height);
   text-align: left;
 }
 
@@ -29,7 +70,7 @@ a:hover {
 }
 
 a:any-link {
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--link-color);
 }
 
@@ -39,11 +80,23 @@ code {
 }
 
 :root {
-  --primary-dark: #829CB3;
-  --primary-light: #EDF7FF;
-  --secondary-dark: #B3A794;
-  --secondary-light: #FFF8ED;
-  --font-color: #222222;
-  --link-color: #4998ec;
+  --primary-dark: #3f3f3f;
+  --primary-light: #eaeef2;
+  --secondary-light: #acbdcc;
+  --secondary-dark: #829cb3;
+  --border-highlight: #e7ce80;
+  --dark-font-color: #1a1a1a;
+  --light-font-color: #ebebeb;
+  --link-color: #ba6b47;
   --nav-height: 2.5rem;
+
+  --xxl-font-size: 42px;
+  --xl-font-size: 29px;
+  --l-font-size: 24px;
+  --m-font-size: 18px;
+
+  --xl-line-height: 48px;
+  --l-line-height:29px;
+  --m-line-height: 28px;
+  --gutter: 3rem;
 }
