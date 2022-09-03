@@ -5,6 +5,7 @@ import { Navigation } from "./components/Navigation";
 import Link from "./components/Link";
 import ContentBox from "./components/ContentBox";
 import FancyTitle from "./components/FancyTitle";
+import FancyImage from "./components/FancyImage";
 import SmoothScroll from "smooth-scroll";
 
 function App() {
@@ -45,7 +46,10 @@ function App() {
         <ul>
           <li><Link href="https://open.spotify.com/playlist/3J6OwjYfuYeDeSAu24D6eZ?si=cc1d544763dc4064&pt=bd03725ea8bf16960d0b4e76086f297e" title="Spotify">Přihoď je do našeho After Eight jukeboxu na Spotify.</Link></li>
         </ul>
-        {/* img3 Postavme spolu mix, kterej se všem jak mentolovej delight rozpustí na rautem přesyceným jazyku.*/}
+        <div className="content-side">
+          <FancyImage src="Spotify_Logo_RGB_White.png" alt="Spotify" dir="se" />
+          <p className="caption-font">Postavme spolu mix, kterej se všem jak mentolovej delight rozpustí na rautem přesyceným jazyku.</p>
+        </div>
         <h3 className="header-left">Máš nápad na aktivitu nebo překvápko?</h3>
         <ul>
           <li>Napiš <Link href="" title="Svědkyně">Alence</Link> nebo <Link href="" title="Sestra">Terezce</Link>. Ví nejlíp, co a jak.</li>
@@ -67,18 +71,24 @@ function App() {
         <FancyTitle>Neděle</FancyTitle>
         <h3 className="header-left">Cyklistický a turistický ráj</h3>
         <p>Když už jsi tu... třeba tvá alkoholem zmožená hlava v neděli ocení trochu brdského kyslíku. Dá-li počásko, nabízí se:</p>
-        <ul>
-          <li><Link href="https://mapy.cz/s/logehakoge" title="Výlet">Fabiánova naučná stezka</Link> vhodná i pro kočárky.</li>
-        </ul>
-        {/* img4 Moc se nezadejchat */}
-        <ul>
-          <li><Link href="https://mapy.cz/s/radabojudo" title="Výlet">Procházka s výhledem</Link>, co končí na vláčku z Dobřichovic.</li>
-        </ul>
-        {/* img5 Pro dobrej pocit */}
-        <ul>
-          <li><Link href="https://mapy.cz/s/nakolalume" title="Výlet">Výšlap přes vodopádky a rozhlednu</Link> až k trati do Všenor.</li>
-        </ul>
-        {/* img6 Jako na obláčku */}
+        <div className="content-side">
+          <ul>
+            <li><Link href="https://mapy.cz/s/logehakoge" title="Výlet">Fabiánova naučná stezka</Link> vhodná i pro kočárky.</li>
+          </ul>
+          <FancyImage src="trail2.jpeg" alt="Cesta" dir="sw" title="Moc se nezadejchat" />
+        </div>
+        <div className="content-side">
+          <FancyImage src="trail.jpeg" alt="Cesta" dir="se" title="Pro dobrej pocit" />
+          <ul>
+            <li><Link href="https://mapy.cz/s/radabojudo" title="Výlet">Procházka s výhledem</Link>, co končí na vláčku z Dobřichovic.</li>
+          </ul>
+        </div>
+        <div className="content-side">
+          <ul>
+            <li><Link href="https://mapy.cz/s/nakolalume" title="Výlet">Výšlap přes vodopádky a rozhlednu</Link> až k trati do Všenor.</li>
+          </ul>
+          <FancyImage src="tower.jpeg" alt="Cesta" dir="sw" title="Jako na obláčku" />
+        </div>
       </ContentBox>
       <footer className="app-footer wide">
         <p>Největší dárek pro nás je, že dorazíš a užiješ si to s náma. Tak dary neřeš. Radši přines vtipný přáníčko, nebo hoď kilčo do prasátka na místě. &#129293;</p>

@@ -1,5 +1,6 @@
 import { React } from 'react'
 import Arrow from '../img/die_arrow.svg';
+import PropTypes from 'prop-types';
 
 const DownButton = (props) => {
     const { link } = props;
@@ -9,6 +10,10 @@ const DownButton = (props) => {
             <img src={Arrow} alt="down" />
         </a>
     )
-}
+};
+
+DownButton.propTypes = {
+    link: PropTypes.string
+};
 
 export default DownButton;

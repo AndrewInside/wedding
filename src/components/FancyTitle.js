@@ -6,7 +6,7 @@ const FancyTitle = props => {
     return (
         <div className="fancy">
             <h2>{children}</h2>
-            <img src={Die} alt="die-logo" />
+            {/* <img src={Die} alt="die-logo" /> */}
         </div>
     )
 };
