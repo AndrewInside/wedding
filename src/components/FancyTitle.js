@@ -1,5 +1,5 @@
 import React from 'react';
-import Die from '../img/die.svg';
+// import Die from '../img/die.svg';
 
 const FancyTitle = props => {
     const { children } = props;
