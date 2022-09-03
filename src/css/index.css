@@ -43,6 +43,18 @@ h3.header-right::after {
   right: calc(var(--gutter) * -1);
 }
 
+h1 {
+  font-size: var(--xl-font-size);
+  line-height: var(--xl-line-height);
+  text-align: center;
+}
+
+h2 {
+  font-size: var(--xl-font-size);
+  line-height: var(--xl-line-height);
+  text-align: left;
+}
+
 p,
 li,
 ol,
@@ -51,17 +63,11 @@ ul {
   line-height: var(--m-line-height);
 }
 
-h1 {
-  font-size: var(--xl-font-size);
-  line-height: var(--xl-line-height);
-  text-align: center;
-}
-
-h2,
 h3,
 h4 {
   font-size: var(--l-font-size);
   line-height: var(--l-line-height);
+  font-weight: 400;
   text-align: left;
 }
 
@@ -92,11 +98,11 @@ code {
 
   --xxl-font-size: 42px;
   --xl-font-size: 29px;
-  --l-font-size: 24px;
+  --l-font-size: 22px;
   --m-font-size: 18px;
 
   --xl-line-height: 48px;
-  --l-line-height:29px;
+  --l-line-height: 29px;
   --m-line-height: 28px;
   --gutter: 3rem;
 }
