@@ -1,7 +1,6 @@
 /* ========== MAIN ========== */
 .app {
   display: grid;
-  grid-template-rows: minmax(100vh, 100%) auto auto;
   background-color: var(--primary-light);
 }
 
@@ -32,7 +31,7 @@
 }
 
 .app-header-wrapper {
-  height: 80vh;
+  height: 92vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -138,7 +137,7 @@ a.nav-link {
   flex: 1;
 }
 
-.content-side .fancy-box{
+.content-side .fancy-box {
   flex: 1.3;
 }
 
