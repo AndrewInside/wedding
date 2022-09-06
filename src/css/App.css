@@ -1,7 +1,7 @@
 /* ========== MAIN ========== */
 .app {
   display: grid;
-  grid-template-rows: minmax(100%, 100vh) auto auto;
+  grid-template-rows: minmax(100vh, 100%) auto auto;
   background-color: var(--primary-light);
 }
 
