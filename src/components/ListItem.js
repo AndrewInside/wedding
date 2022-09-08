@@ -1,5 +1,4 @@
 import React from "react";
-import Hex from "../img/hex.svg";
 
 const ListItem = (props) => {
     const { children } = props;
@@ -11,7 +10,5 @@ const ListItem = (props) => {
         </div>
     )
 };
-
-// list-style-image: url(../img/hex.svg);
 
 export default ListItem;
