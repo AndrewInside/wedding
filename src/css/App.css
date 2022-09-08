@@ -155,16 +155,14 @@ a.nav-link {
 .list-item-wrapper {
   display: flex;
   justify-content: flex-start;
-  align-items: baseline;
 }
 
 .list-item-image {
   background-image: url(../img/hex.svg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
   width: 15px;
-  height: 15px;
+  height: calc(var(--m-line-height) - 2px);
   flex-shrink: 0;
   margin-right: 0.3em;
 }
