@@ -10,11 +10,6 @@ body {
   scroll-behavior: smooth;
 }
 
-ul {
-  list-style-image: url(../img/hex.svg);
-  padding-left: 22px;
-}
-
 h3 {
   position: relative;
   z-index: 1;
@@ -59,6 +54,7 @@ h2 {
 p,
 li,
 ol,
+div,
 ul {
   font-size: var(--m-font-size);
   line-height: var(--m-line-height);
