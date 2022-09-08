@@ -24,7 +24,7 @@ h3.header-left::before {
   content: '';
   width: calc(50% + var(--gutter));
   height: 8px;
-  background-color: var(--secondary-light);
+  background: linear-gradient(90deg, var(--secondary-light) 0%, #00000000 100%);
   display: inline-block;
   z-index: -1;
   position: absolute;
@@ -36,7 +36,7 @@ h3.header-right::after {
   content: '';
   width: calc(50% + var(--gutter));
   height: 8px;
-  background-color: var(--secondary-light);
+  background: linear-gradient(90deg, #00000000 0%, var(--secondary-light) 100%);
   display: inline-block;
   z-index: -1;
   position: absolute;

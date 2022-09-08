@@ -2,9 +2,12 @@
 .app {
   display: grid;
   background-color: var(--primary-light);
+  grid-template-rows: 73vh;
 }
 
-body, html, .app {
+body,
+html,
+.app {
   height: 100%;
 }
 
@@ -28,22 +31,23 @@ body, html, .app {
 
 /* ========== HEADER ========== */
 .app-header {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   background-color: var(--primary-dark);
 }
 
-.app-header-wrapper {
-  height: 92vh;
+.app-header-text {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   gap: 1em;
+  height: calc(100% - 25px);
 }
 
-.app-header-wrapper h2 {
+.app-header h2 {
   font: 600 var(--xxl-font-size) Montserrat;
   color: #ffffff;
   text-align: center;
@@ -60,7 +64,7 @@ body, html, .app {
 
 .down-link img {
   color: #ffffff;
-  width: 100px;
+  width: 75px;
   height: 40px;
   animation: scroll-down 3s infinite;
   box-sizing: border-box;
@@ -247,14 +251,14 @@ a.nav-link {
 /* ========== MEDIA ========== */
 
 @media only screen and (max-width: 366px) {
-  .app-header-wrapper h2 {
+  .app-header-text h2 {
     font-size: 35px !important;
     letter-spacing: 8px !important;
   }
 }
 
 @media only screen and (max-width: 300px) {
-  .app-header-wrapper h2 {
+  .app-header-text h2 {
     font-size: 30px !important;
     letter-spacing: 5px !important;
   }
