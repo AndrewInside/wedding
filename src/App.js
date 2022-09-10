@@ -23,11 +23,11 @@ function App() {
         <FancyTitle>Program</FancyTitle>
         <h3 className="header-left">13:00 Příjezd hostů</h3>
         <ListItem>Parkuje se na pohodu a bez zón, <Link href="" title="">mrkni na mapku</Link>.</ListItem>
-        <ListItem>Vlak z Hlaváku jede v 12:21. S lítačkou za 22, bez ní za 53&nbsp;Kč.</ListItem>
+        <ListItem>Vlak z Hlaváku jede v 12:21. S&nbsp;lítačkou za 22, bez ní za 53&nbsp;Kč.</ListItem>
         <ListItem>Ubytování je až od 15:00, ale hodit se do gala půjde v pokoji Marie.</ListItem>
         <h3 className="header-right">14:00 Obřad před hotelem</h3>
         <ListItem>V říjnu tu bývá 14 °C. Do tepla hotelu to jsou naštěstí dva kroky. Deštníky máme, půjčíme ti bílý. ;)</ListItem>
-        <ListItem><strong>Dress code?</strong> Něco pohodlného, v čem se cítíš krásně a svátečně.</ListItem>
+        <ListItem><strong>Dress code?</strong> Něco pohodlného, v&nbsp;čem se cítíš krásně a svátečně.</ListItem>
         <ListItem><strong>Při obřadu prosím nefoť.</strong> Radši si nás odnes v srdci než na kartě.</ListItem>
         <h3 className="header-left">A pak...</h3>
         <ListItem>Slzičky, přípitek i hromadné foto.</ListItem>
@@ -42,7 +42,7 @@ function App() {
           <p>Pošli je do našeho <Link href="https://open.spotify.com/playlist/3J6OwjYfuYeDeSAu24D6eZ?si=cc1d544763dc4064&pt=bd03725ea8bf16960d0b4e76086f297e" title="Spotify">After Eight jukeboxu</Link>.</p>
         </div>
         <h3 className="header-left">Máš nápad na aktivitu nebo překvápko?</h3>
-        <ListItem>Napiš <Link href="mailto:alena.pekackova@gmail.com" title="Svědkyně">Alence</Link> nebo <Link href="mailto:tereza.zacharda@gmail.com" title="Sestra">Terezce</Link>. Ví nejlíp, co a jak.</ListItem>
+        <ListItem>Napiš <Link href="mailto:alena.pekackova@gmail.com" title="Svědkyně">Alence</Link> nebo <Link href="mailto:tereza.zacharda@gmail.com" title="Sestra">Terezce</Link>. Ví&nbsp;nejlíp, co a jak.</ListItem>
         <ListItem>Mimochodem, na místě je piano. My na něj neumíme. &#129335; Ty jo?</ListItem>
       </ContentBox>
       <ContentBox name="nav-room">
@@ -70,7 +70,7 @@ function App() {
           <p><Link href="https://mapy.cz/s/radabojudo" title="Výlet">Procházka s výhledem</Link>, co končí na vláčku z Dobřichovic.</p>
         </div>
         <div className="content-side">
-          <p><Link href="https://mapy.cz/s/nakolalume" title="Výlet">Výšlap přes vodopádky a rozhlednu</Link> až k trati do Všenor.</p>
+          <p><Link href="https://mapy.cz/s/nakolalume" title="Výlet">Výšlap přes vodopádky a rozhlednu</Link> až k&nbsp;trati do Všenor.</p>
           <FancyImage src="tower.jpeg" alt="Cesta" dir="sw" title="Jako na obláčku" />
         </div>
       </ContentBox>
