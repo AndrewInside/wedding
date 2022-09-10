@@ -41,7 +41,7 @@ function App() {
         <ListItem><Link href="https://open.spotify.com/playlist/3J6OwjYfuYeDeSAu24D6eZ?si=cc1d544763dc4064&pt=bd03725ea8bf16960d0b4e76086f297e" title="Spotify">Přihoď je do našeho After Eight jukeboxu na Spotify.</Link></ListItem>
         <div className="content-side">
           <FancyImage src="Spotify_Logo_RGB_White.png" alt="Spotify" dir="se" />
-          <p className="caption-font">Postavme spolu mix, kterej se všem jak mentolovej delight rozpustí na rautem přesyceným jazyku.</p>
+          <p>Postavme spolu mix, kterej se všem jak mentolovej delight rozpustí na rautem přesyceným jazyku.</p>
         </div>
         <h3 className="header-left">Máš nápad na aktivitu nebo překvápko?</h3>
         <ListItem>Napiš <Link href="" title="Svědkyně">Alence</Link> nebo <Link href="" title="Sestra">Terezce</Link>. Ví nejlíp, co a jak.</ListItem>

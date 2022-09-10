@@ -7,7 +7,7 @@ const FancyImage = props => {
         <div className={`fancy-box ${dir}`}>
             <div className={`fancy-border ${dir}`}>
                 <div>
-                    <span className={`fancy-border-title ${dir} caption-font`}>{title}</span>
+                    {/* <span className={`fancy-border-title ${dir} caption-font`}>{title}</span> */}
                 </div>
             </div>
             <div className={`fancy-img ${dir}`}>
