@@ -235,6 +235,7 @@ a.nav-link {
   --box-width: 100%;
   --offset: 12px;
   position: relative;
+  margin-bottom: 1rem;
 }
 
 .fancy-box.se {

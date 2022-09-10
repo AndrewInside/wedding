@@ -37,10 +37,9 @@ function App() {
       <ContentBox name="nav-jukebox">
         <FancyTitle>Zapoj se</FancyTitle>
         <h3 className="header-right">Znáš songy, co rozezní srdce a rozhejbou kolena?</h3>
-        <p>Postavme spolu mix, kterej se všem jak mentolovej delight rozpustí na rautem přesyceným jazyku.</p>
         <div className="content-side">
           <FancyImage src="Spotify_Logo_ratioed.png" alt="Spotify" dir="se" />
-          <p>Přihoď je do našeho <Link href="https://open.spotify.com/playlist/3J6OwjYfuYeDeSAu24D6eZ?si=cc1d544763dc4064&pt=bd03725ea8bf16960d0b4e76086f297e" title="Spotify">After Eight jukeboxu</Link>.</p>
+          <p>Pošli je do našeho <Link href="https://open.spotify.com/playlist/3J6OwjYfuYeDeSAu24D6eZ?si=cc1d544763dc4064&pt=bd03725ea8bf16960d0b4e76086f297e" title="Spotify">After Eight jukeboxu</Link>.</p>
         </div>
         <h3 className="header-left">Máš nápad na aktivitu nebo překvápko?</h3>
         <ListItem>Napiš <Link href="mailto:alena.pekackova@gmail.com" title="Svědkyně">Alence</Link> nebo <Link href="mailto:tereza.zacharda@gmail.com" title="Sestra">Terezce</Link>. Ví nejlíp, co a jak.</ListItem>
