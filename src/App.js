@@ -61,15 +61,15 @@ function App() {
         <h3 className="header-left">Cyklistický a turistický ráj</h3>
         <p>Když už jsi tu... třeba tvá alkoholem zmožená hlava v neděli ocení trochu brdského kyslíku. Dá-li počásko, nabízí se:</p>
         <div className="content-side">
-          <ListItem><Link href="https://mapy.cz/s/logehakoge" title="Výlet">Fabiánova naučná stezka</Link> vhodná i pro kočárky.</ListItem>
+          <p><Link href="https://mapy.cz/s/logehakoge" title="Výlet">Fabiánova naučná stezka</Link> vhodná i pro kočárky.</p>
           <FancyImage src="trail2.jpeg" alt="Cesta" dir="sw" title="Moc se nezadejchat" />
         </div>
         <div className="content-side">
           <FancyImage src="trail.jpeg" alt="Cesta" dir="se" title="Pro dobrej pocit" />
-          <ListItem><Link href="https://mapy.cz/s/radabojudo" title="Výlet">Procházka s výhledem</Link>, co končí na vláčku z Dobřichovic.</ListItem>
+          <p><Link href="https://mapy.cz/s/radabojudo" title="Výlet">Procházka s výhledem</Link>, co končí na vláčku z Dobřichovic.</p>
         </div>
         <div className="content-side">
-          <ListItem><Link href="https://mapy.cz/s/nakolalume" title="Výlet">Výšlap přes vodopádky a rozhlednu</Link> až k trati do Všenor.</ListItem>
+          <p><Link href="https://mapy.cz/s/nakolalume" title="Výlet">Výšlap přes vodopádky a rozhlednu</Link> až k trati do Všenor.</p>
           <FancyImage src="tower.jpeg" alt="Cesta" dir="sw" title="Jako na obláčku" />
         </div>
       </ContentBox>

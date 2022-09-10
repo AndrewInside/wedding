@@ -50,6 +50,7 @@ h2 {
   font-size: var(--xl-font-size);
   line-height: var(--xl-line-height);
   text-align: left;
+  margin: 0;
 }
 
 p,

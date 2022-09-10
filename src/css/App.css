@@ -158,13 +158,14 @@ a.nav-link {
 .list-item-wrapper {
   display: flex;
   justify-content: flex-start;
+  margin-top: 8px;
 }
 
 .list-item-image {
   background-image: url(../img/hex.svg);
   background-position: center center;
   background-repeat: no-repeat;
-  width: 15px;
+  width: 10px;
   height: calc(var(--m-line-height) - 2px);
   flex-shrink: 0;
   margin-right: 0.3em;
@@ -179,6 +180,7 @@ a.nav-link {
   position: relative;
   visibility: hidden;
   top: calc(-1 * var(--nav-height));
+  height: 0px;
 }
 
 .content-side {
@@ -205,6 +207,7 @@ a.nav-link {
   align-items: center;
   justify-content: flex-start;
   gap: 1em;
+  margin: 1.5rem 0;
 }
 
 .fancy img {
