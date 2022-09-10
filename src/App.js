@@ -52,7 +52,7 @@ function App() {
         <ListItem><strong>Spíš v Grandu:</strong> i tady se dá ubytovat až od 15:00.</ListItem>
         <ListItem>Spát chceš, ale <strong>nemáš kde:</strong> využij prosím <Link href="https://www.hotelgrandrevnice.cz/" title="Hotel Grand">hotel Grand</Link> a napiš nám, jestli chceš snídat v Corsu.</ListItem>
         <ListItem><strong>Nevíš, kde spíš:</strong> napiš <Link href="mailto:jana.ceska@gmail.com" title="Nevěsta">Janě</Link>.</ListItem>
-        <ListItem><strong>Spát nebudeš:</strong> Poslední vlak jede v 23:34. Cena za taxi dává smysl od 3 lidí. Můžeme ti poslat 150&nbsp;Kč slevu na první jízdu s Liftago.</ListItem>
+        <ListItem><strong>Spát nebudeš:</strong> Poslední vlak jede v&nbsp;23:34. Cena za taxi dává smysl od&nbsp;3&nbsp;lidí. Můžeme ti poslat 150&nbsp;Kč slevu na první jízdu s Liftago.</ListItem>
       </ContentBox>
       <div className="app-disclaimer">
         <p>Největší dárek pro nás je, že dorazíš a užiješ si to s náma. Tak dary neřeš. Radši přines vtipný přáníčko, nebo hoď kilčo do prasátka na místě. &#129293;</p>
@@ -75,7 +75,7 @@ function App() {
         </div>
       </ContentBox>
       <footer className="app-footer wide">
-        <div>&copy; JO</div>
+        <div>JO&nbsp;&copy;&nbsp;{(new Date()).getFullYear()}</div>
         <div>Dotázky? Piš na Whatsapp.</div>
       </footer>
     </div>
