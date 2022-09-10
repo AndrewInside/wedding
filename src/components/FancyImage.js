@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const FancyImage = props => {
-    const { src, alt, dir = "se", title = "" } = props;
+    const { src, alt, dir = "se" } = props;
     return (
         <div className={`fancy-box ${dir}`}>
             <div className={`fancy-border ${dir}`}>
