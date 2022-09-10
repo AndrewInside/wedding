@@ -2,7 +2,7 @@
 .app {
   display: grid;
   background-color: var(--primary-light);
-  grid-template-rows: 73vh;
+  grid-template-rows: 100vh;
 }
 
 body,
@@ -44,17 +44,17 @@ html,
   flex-direction: column;
   justify-content: flex-end;
   gap: 1em;
-  height: calc(100% - 25px);
+  height: 100%;
 }
 
 .app-header h2 {
-  font: 600 var(--xxl-font-size) Montserrat;
+  font: 600 var(--xl-font-size) Montserrat;
   color: #ffffff;
   text-align: center;
   text-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
   letter-spacing: 10px;
-  padding: 0;
-  margin: 0;
+  padding: .5em;
+  margin: 0 0;
 }
 
 .down-link {
@@ -63,6 +63,7 @@ html,
 }
 
 .down-link img {
+  margin: 3rem;
   color: #ffffff;
   width: 75px;
   height: 40px;
