@@ -108,7 +108,7 @@ html,
 }
 
 .nav-wrapper ul {
-  margin: .5em 2em;
+  margin: .5em 2em 1em 2em;
   padding: 0;
   animation: roll-out 0.2s both;
 }
@@ -116,13 +116,16 @@ html,
 .nav-wrapper li {
   list-style: none;
   list-style-type: none;
+  border-bottom: 1px var(--secondary-dark) solid;
 }
 
 a.nav-link {
   width: 100%;
   display: inline-block;
-  color: var(--primary-light);
-  padding: .2em .2em .2em;
+  color: var(--light-font-color);
+  margin: .2em .2em .2em;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 800px) {
@@ -295,14 +298,17 @@ a.nav-link {
 .app-footer {
   background-color: var(--primary-dark);
   color: var(--light-font-color);
-  padding: 1rem var(--gutter);
+  padding: .8rem var(--gutter);
   margin-top: 2rem;
-  font-size: var(--s-font-size);
   min-height: var(--nav-height);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.app-footer div {
+  font-size: var(--s-font-size);
 }
 
 /* ========== MEDIA ========== */

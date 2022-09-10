@@ -31,10 +31,8 @@ function App() {
         <ListItem><strong>Při obřadu prosím nefoť.</strong> Radši si nás odnes v srdci než na kartě.</ListItem>
         <h3 className="header-left">A pak...</h3>
         <ListItem>Slzičky, přípitek i hromadné foto.</ListItem>
-        <ListItem><strong>Párty!</strong> Členité prostory. Volná zábava. Bar a boahtý raut.</ListItem>
+        <ListItem><strong>Párty!</strong> Členité prostory. Volná zábava. Bar a bohatý raut.</ListItem>
         <ListItem><strong>Bez tradic.</strong> Nevěsta je z ženicha unešená už dávno a centrem pozornosti nejsou rádi ani jeden.</ListItem>
-        {/* img1 Návrh na servírování */}
-        {/* img2 Přidat lidi a zamíchat */}
       </ContentBox>
       <ContentBox name="nav-jukebox">
         <FancyTitle>Zapoj se</FancyTitle>
