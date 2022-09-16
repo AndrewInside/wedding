@@ -67,15 +67,15 @@ function App() {
         <p>Když už jsi tu... třeba tvá alkoholem zmožená hlava v neděli ocení trochu brdského kyslíku. Dá-li počásko, nabízí se:</p>
         <div className="content-side">
           <p><Link href="https://mapy.cz/s/logehakoge" title="Výlet">Fabiánova naučná stezka</Link> vhodná i pro kočárky.</p>
-          <FancyImage src="trail2.jpeg" alt="Cesta" dir="sw" title="Moc se nezadejchat" />
+          <FancyImage src="trail2.webp" alt="Cesta" dir="sw" title="Moc se nezadejchat" />
         </div>
         <div className="content-side">
-          <FancyImage src="trail.jpeg" alt="Cesta" dir="se" title="Pro dobrej pocit" />
+          <FancyImage src="trail.webp" alt="Cesta" dir="se" title="Pro dobrej pocit" />
           <p><Link href="https://mapy.cz/s/radabojudo" title="Výlet">Procházka s výhledem</Link>, co končí na vláčku z Dobřichovic.</p>
         </div>
         <div className="content-side">
           <p><Link href="https://mapy.cz/s/nakolalume" title="Výlet">Výšlap přes vodopádky a rozhlednu</Link> až k&nbsp;trati do Všenor.</p>
-          <FancyImage src="tower.jpeg" alt="Cesta" dir="sw" title="Jako na obláčku" />
+          <FancyImage src="tower.webp" alt="Cesta" dir="sw" title="Jako na obláčku" />
         </div>
       </ContentBox>
       <footer className="app-footer wide">

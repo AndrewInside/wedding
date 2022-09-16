@@ -1,5 +1,5 @@
 import React from "react";
-import header from "../img/header_centered.jpg";
+import header from "../img/header_centered.webp";
 import DownButton from "./DownButton";
 
 export const Header = () => {
