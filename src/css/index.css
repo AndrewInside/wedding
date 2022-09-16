@@ -28,16 +28,46 @@ h3.header-left::before {
   left: calc(var(--gutter) * -1);
 }
 
-h3.header-right::after {
-  content: '';
-  width: calc(50% + var(--gutter));
-  height: 8px;
-  background: linear-gradient(90deg, #00000000 0%, var(--secondary-light) 100%);
-  display: inline-block;
-  z-index: -1;
-  position: absolute;
-  top: var(--l-font-size);
-  right: calc(var(--gutter) * -1);
+@media only screen and (max-width: 799px) {
+  h3.header-right::after {
+    content: '';
+    width: calc(50% + var(--gutter));
+    height: 8px;
+    background: linear-gradient(90deg, #00000000 0%, var(--secondary-light) 100%);
+    display: inline-block;
+    z-index: -1;
+    position: absolute;
+    top: var(--l-font-size);
+    right: calc(var(--gutter) * -1);
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  h3.header-right::before {
+    content: '';
+    width: calc(50% + var(--gutter));
+    height: 8px;
+    background: linear-gradient(90deg, var(--secondary-light) 0%, #00000000 100%);
+    display: inline-block;
+    z-index: -1;
+    position: absolute;
+    top: var(--l-font-size);
+    left: calc(var(--gutter) * -1);
+  }
+
+  :root {
+    --nav-height: 3rem !important;
+    --xxl-font-size: 60px !important;
+    --xl-font-size: 29px !important;
+    --l-font-size: 25px !important;
+    --m-font-size: 19px !important;
+    --s-font-size: 15px !important;
+    --xl-line-height: 51px !important;
+    --l-line-height: 32px !important;
+    --m-line-height: 31px !important;
+    --gutter: 2rem !important;
+    --header-lettering: 8px !important;
+  }
 }
 
 h1 {
