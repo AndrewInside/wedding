@@ -24,7 +24,7 @@ function App() {
         <h1>8.&nbsp;10.&nbsp;2022<br /><Link href="https://mapy.cz/s/farodozasa/" title="Hotel">Řevnice, Hotel Corso</Link></h1>
         <FancyTitle>Program</FancyTitle>
         <h3 className="header-left">13:00 Příjezd hostů</h3>
-        <ListItem>Parkuje se na pohodu a bez zón, <Link href="" title="">mrkni na mapku</Link>.</ListItem>
+        <ListItem>Parkuje se na pohodu a bez zón, <Link href="https://mapy.cz/s/dejehupode" title="Parkování">mrkni na mapku</Link>.</ListItem>
         <ListItem>Vlak z Hlaváku jede v 12:21. S&nbsp;lítačkou za 22, bez ní za 53&nbsp;Kč.</ListItem>
         <ListItem>Ubytování je až od 15:00, ale hodit se do gala půjde v pokoji Ignát.</ListItem>
         <h3 className="header-right">14:00 Obřad před hotelem</h3>
@@ -59,9 +59,9 @@ function App() {
         <ListItem><strong>Nevíš, kde spíš:</strong> napiš <Link href="mailto:jana.ceska@gmail.com" title="Nevěsta">Janě</Link>.</ListItem>
         <ListItem><strong>Spát nebudeš:</strong> Poslední vlak jede v&nbsp;23:34. Cena za taxi dává smysl od&nbsp;3&nbsp;lidí. Můžeme ti poslat 150&nbsp;Kč slevu na první jízdu s Liftago.</ListItem>
       </ContentBox>
-      <div className="app-disclaimer">
+      <section className="app-content-box app-disclaimer">
         <p>Největší dárek pro nás je, že dorazíš a užiješ si to s náma. Tak dary neřeš. Radši přines vtipný přáníčko, nebo hoď kilčo do prasátka na místě. &#129293;</p>
-      </div>
+      </section>
       <ContentBox name="nav-sunday">
         <FancyTitle>Neděle</FancyTitle>
         <p>Když už jsi tu... třeba tvá alkoholem zmožená hlava v neděli ocení trochu brdského kyslíku. Dá-li počásko, nabízí se:</p>
