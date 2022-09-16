@@ -74,7 +74,7 @@ function App() {
           <p><Link href="https://mapy.cz/s/radabojudo" title="Výlet">Procházka s výhledem</Link>, co končí na vláčku z Dobřichovic.</p>
         </div>
         <div className="content-side">
-          <p><Link href="https://mapy.cz/s/nakolalume" title="Výlet">Výšlap přes vodopádky a rozhlednu</Link> až k&nbsp;trati do Všenor.</p>
+          <p><Link href="https://mapy.cz/s/malulanaka" title="Výlet">Výšlap přes vodopádky a rozhlednu</Link> až k&nbsp;trati do Všenor.</p>
           <FancyImage src="tower.webp" alt="Cesta" dir="sw" title="Jako na obláčku" />
         </div>
       </ContentBox>
