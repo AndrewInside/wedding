@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/wedding/static/css/main.fe21a2cd.css",
-    "main.js": "/wedding/static/js/main.3892f569.js",
-    "static/js/787.4ff3cea1.chunk.js": "/wedding/static/js/787.4ff3cea1.chunk.js",
-    "static/media/header_centered.webp": "/wedding/static/media/header_centered.13e83ee9c66459b97161.webp",
-    "index.html": "/wedding/index.html",
-    "static/media/die_arrow.svg": "/wedding/static/media/die_arrow.945a1e863f1de4218a82f89ae8016da5.svg",
-    "static/media/hex.svg": "/wedding/static/media/hex.e4dcd127f565bdf6c983.svg",
-    "main.fe21a2cd.css.map": "/wedding/static/css/main.fe21a2cd.css.map",
-    "main.3892f569.js.map": "/wedding/static/js/main.3892f569.js.map",
-    "787.4ff3cea1.chunk.js.map": "/wedding/static/js/787.4ff3cea1.chunk.js.map"
+    "main.css": "https://andrewinside.github.io/wedding/static/css/main.beb59a52.css",
+    "main.js": "https://andrewinside.github.io/wedding/static/js/main.e0226e96.js",
+    "static/js/787.4ff3cea1.chunk.js": "https://andrewinside.github.io/wedding/static/js/787.4ff3cea1.chunk.js",
+    "static/media/header_centered.webp": "https://andrewinside.github.io/wedding/static/media/header_centered.13e83ee9c66459b97161.webp",
+    "index.html": "https://andrewinside.github.io/wedding/index.html",
+    "static/media/die_arrow.svg": "https://andrewinside.github.io/wedding/static/media/die_arrow.945a1e863f1de4218a82f89ae8016da5.svg",
+    "static/media/hex.svg": "https://andrewinside.github.io/wedding/static/media/hex.e4dcd127f565bdf6c983.svg",
+    "main.beb59a52.css.map": "https://andrewinside.github.io/wedding/static/css/main.beb59a52.css.map",
+    "main.e0226e96.js.map": "https://andrewinside.github.io/wedding/static/js/main.e0226e96.js.map",
+    "787.4ff3cea1.chunk.js.map": "https://andrewinside.github.io/wedding/static/js/787.4ff3cea1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe21a2cd.css",
-    "static/js/main.3892f569.js"
+    "static/css/main.beb59a52.css",
+    "static/js/main.e0226e96.js"
   ]
 }
