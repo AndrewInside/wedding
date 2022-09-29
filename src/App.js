@@ -14,7 +14,7 @@ function App() {
     speed: 300
   });
 
-  const playlist_url = "https://open.spotify.com/playlist/3J6OwjYfuYeDeSAu24D6eZ?si=5acc6f15cd644f95";
+  const playlist_url = "https://open.spotify.com/playlist/3J6OwjYfuYeDeSAu24D6eZ?si=ec4a744866a94afd";
 
   return (
     <div className="app">
