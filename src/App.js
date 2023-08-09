@@ -14,7 +14,7 @@ function App() {
     speed: 300
   });
 
-  const playlist_url = "https://open.spotify.com/playlist/3J6OwjYfuYeDeSAu24D6eZ?si=ec4a744866a94afd";
+  const playlist_url = "https://spoti.fi/3fwFJCG";
 
   return (
     <div className="app">
@@ -24,7 +24,7 @@ function App() {
         <h1>8.&nbsp;10.&nbsp;2022<br /><Link href="https://mapy.cz/s/farodozasa/" title="Hotel">Řevnice, Hotel Corso</Link></h1>
         <FancyTitle>Program</FancyTitle>
         <h3 className="header-left">13:00 Příjezd hostů</h3>
-        <ListItem>Parkuje se na pohodu a bez zón, <Link href="https://mapy.cz/s/dejehupode" title="Parkování">mrkni na mapku</Link>.</ListItem>
+        <ListItem>Parkuje se na pohodu a bez zón, <Link href="https://mapy.cz/s/kejohopeja" title="Parkování">mrkni na mapku</Link>.</ListItem>
         <ListItem>Vlak z Hlaváku jede v 12:21. S&nbsp;lítačkou za 22, bez ní za 53&nbsp;Kč.</ListItem>
         <ListItem>Ubytování je až od 15:00, ale hodit se do gala půjde v pokoji Ignát.</ListItem>
         <h3 className="header-right">14:00 Obřad před hotelem</h3>
